@@ -85,6 +85,8 @@ The app starts with an empty library. Test fixtures and conversations never ente
 
 ## Screenshots
 
+![Knowledge Desk answering from uploaded PDFs](screenshots/desktop-chat.png)
+
 <details><summary>Mobile interface</summary>
 
 ![Mobile chat](screenshots/mobile-chat.png)

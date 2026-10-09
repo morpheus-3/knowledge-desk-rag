@@ -85,8 +85,6 @@ The app starts with an empty library. Test fixtures and conversations never ente
 
 ## Screenshots
 
-![PDF grounded chat with citations](screenshots/desktop-chat.png)
-
 <details><summary>Mobile interface</summary>
 
 ![Mobile chat](screenshots/mobile-chat.png)

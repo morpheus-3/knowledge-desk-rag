@@ -80,7 +80,6 @@ def main():
                 checks.append("Previous conversation reloads from persisted SQLite history")
                 page.locator(".citation").first.click()
                 page.locator("#conversation").evaluate("element=>element.scrollTop=0")
-                page.screenshot(path=str(screenshots/"desktop-chat.png"),full_page=True)
                 page.set_viewport_size({"width":390,"height":844})
                 page.locator("#library").evaluate("element=>element.classList.remove('open')")
                 page.locator("#conversation").evaluate("element=>element.scrollTop=0")

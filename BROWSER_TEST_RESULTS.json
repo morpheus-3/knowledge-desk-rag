@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    "Empty workspace and attractive welcome screen",
+    "Upload and index 20 actual PDFs in one browser action",
+    "Missing-key error preserves the question without partial messages",
+    "Grounded answer, inline citation, page-level source trail and PDF link",
+    "Unsupported question refuses rather than using outside knowledge",
+    "Previous conversation reloads from persisted SQLite history",
+    "Delete conversation through a mobile confirmation dialog; deletion persists, PDFs remain",
+    "Delete a PDF and update the retrieval library"
+  ],
+  "javascript_errors": [],
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "groq": "mocked in isolated test server; no live API call"
+}
